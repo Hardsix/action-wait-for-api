@@ -6,8 +6,11 @@ This can be useful to wait e.g. for a specific version of an API to deployed or 
 
 ## Example usage
 
+              
+- name: Wait for API Url Action
+
 ```yml
-uses: mydea/action-wait-for-api@v1
+uses: Hardsix/action-wait-for-api@v2
 with:
   url: "https://api.example.com/status"
   expected-response-field: "version"
