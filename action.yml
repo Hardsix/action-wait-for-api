@@ -1,4 +1,4 @@
-name: "Wait for API Action"
+name: "Wait for API Url Action"
 description: "A Github Action to wait for a specific API response to proceed."
 author: "Tomislav Bradaric (forked from Francesco Novy)"
 branding:
